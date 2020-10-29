@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('./vars.css');
+
+body {
+    margin: 0;
+    font-family: var(--site-fonts);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-main);
+    color: var(--color-main);
+}
+.Link {
+    cursor:pointer;
+    text-decoration:none;
+    text-align: center;
+}
+  
+.Link:hover {
+    text-decoration:underline;
+}
+.Icon {
+    width:2rem;
+    height:2rem;
+    cursor:pointer;
+    fill:var(--color-second);
+    object-fit:cover;
+    border-radius:50%;
+}
+/* HEADER */ 
+header {
+    background-color:var(--color-main);
+    height: 5rem;
+    display: flex;
+    flex-direction: row; 
+    color:var(--color-second);
+    border:none;
+  }
+header div {
+    flex:1;
+}
+.Logo {
+    height: auto;
+    font-family:'Roboto Slab', arial;
+    color:var(--color-second);
+    font-weight: 900;
+    font-size:3em;
+    padding-left: 0.5em;
+    border:none;
+    display:flex;
+    align-items:center;
+    flex:9;
+}
+.Account {
+    color: white;
+    text-decoration:none;
+    font-size:calc(10px + 1vmin);
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Account > div {
+    border:2px solid var(--border-color);
+    border-radius: 0.2em;
+    background: var(--color-main);
+    position:absolute;
+    padding:1rem;
+    top: 4.5rem;
+}
+.UserOptions {
+    font-size: 1.5em;
+}
+.FederatedOptions {
+    right:0;
+}  
+.LoginButton {
+    cursor:pointer;
+}
+  
+nav {
+    background-color:var(--color-fourth);
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    color:var(--color-main);
+    border:none;
+}
+nav svg {
+    fill: var(--color-main);
+}
+nav > div {
+    background: var(--color-main);
+    border: 2px solid var(--color-main);
+    border-radius: 0.3rem;
+    padding:0.2rem;
+    margin:0.2rem;
+    cursor:pointer;
+}

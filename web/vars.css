@@ -1,0 +1,8 @@
+:root {
+    --site-fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    --color-main: #223;
+    --color-second: #EEE;
+    --color-third: #FF4400;
+}
